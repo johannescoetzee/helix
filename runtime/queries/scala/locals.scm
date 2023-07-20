@@ -26,4 +26,7 @@
 (var_declaration
   name: (identifier) @local.definition)
 
-(identifier) @local.reference
+[ 
+  (identifier)
+  (interpolation_identifier) 
+] @local.reference

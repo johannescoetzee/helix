@@ -1265,6 +1265,7 @@ language-servers = [ "metals" ]
 
 [[grammar]]
 name = "scala"
+# TODO Update revision once https://github.com/tree-sitter/tree-sitter-scala/pull/324 is merged
 source = { git = "https://github.com/tree-sitter/tree-sitter-scala", rev = "23d21310fe4ab4b3273e7a6810e781224a3e7fe1" }
 
 [[language]]
